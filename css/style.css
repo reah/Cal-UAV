@@ -6,11 +6,23 @@
 
 #mid{
     position: relative;
-    height: 660px;
+    height: 900px;
     width: 100%;
 }
 
+#mid2{
+    position: relative;
+    height: 750px;
+    width: 100%;
+    background-color: black;
+}
 
+.background2{
+    position: relative;
+    height: 900px;
+    width: 100%;
+    
+}
 
 .background{
 	height: 750px;
@@ -26,13 +38,6 @@ img.logo{
     margin-left: -275px;
 }
 
-.background2{
-    position: relative;
-    opacity: .9;
-    width: 100%;
-    
-       
-}
 #nav-bar{
     position: absolute;
     top: 35px;
@@ -60,7 +65,7 @@ img.logo{
     left: 50%;
     margin-left: -712px;
     top: 150px;
-    height: 110%;
+    height: 750px;
     width: 100%;
     overflow: hidden;
 }
@@ -69,13 +74,24 @@ img.logo{
     font-family: Lobster;
     font-size: 55px;
     color: #feb91f;
-    text-shadow: black -4px 0px;
-    text-align: center;   
+    text-shadow: black -4px 4px 20px;
     position: absolute;
     bottom: 0;
     left: 50%;
     margin-left: -536.5px;
     margin-bottom: 100px;
     opacity: .9;
-    
 }
+
+#about{
+    font-family: Lobster;
+    font-size: 55px;
+    color: #feb91f;
+    text-shadow: black -4px 4px 20px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -64px;
+    opacity: .9;
+}
+
