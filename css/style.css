@@ -1,41 +1,44 @@
+body{
+    margin: 0px;
+}
+
+
 #top{
     position: relative;
-    height: 750px;
     width: 100%;
+    padding: 90px 0px;
 }
 
 #mid{
     position: relative;
-    height: 900px;
+    height: 752px;
     width: 100%;
-}
-
-#mid2{
-    position: relative;
-    height: 750px;
-    width: 100%;
-    background-color: black;
+    background: #3ea8fc;
 }
 
 .background2{
-    position: relative;
-    height: 900px;
+    position: absolute;
+    height: 100%;
     width: 100%;
     
 }
 
 .background{
-	height: 750px;
+	height: 100%;
 	width: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0px;
 }
 
 img.logo{
-    position: absolute;
+    display: block;
 	width: 500px;
-    top: 50%;
-    margin-top: -300px;
-    left: 50%;
-    margin-left: -275px;
+    /* top: 50%; */
+    /* margin-top: -300px; */
+    /* left: 50%; */
+    /* margin-left: -275px; */
+    margin: 0px auto;
 }
 
 #nav-bar{
@@ -61,13 +64,9 @@ img.logo{
 }
 
 .berkeley{
-    position: absolute;
-    left: 50%;
-    margin-left: -712px;
-    top: 150px;
-    height: 750px;
+    height: 100%;
     width: 100%;
-    overflow: hidden;
+    padding-top: 0px;
 }
 
 #tagline{
@@ -75,23 +74,42 @@ img.logo{
     font-size: 55px;
     color: #feb91f;
     text-shadow: black -4px 4px 20px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -536.5px;
-    margin-bottom: 100px;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 50%; */
+    /* margin-left: -536.5px; */
+    /* margin-bottom: 100px; */
     opacity: .9;
+    text-align: center;
+}
+
+#fly{
+    padding: 10px;
+}
+
+#mid2{
+    position: relative;
+    height: 750px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #about{
+    /* position: absolute; */
+    /* top: 0px; */
     font-family: Lobster;
     font-size: 55px;
     color: #feb91f;
     text-shadow: black -4px 4px 20px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    margin-left: -64px;
     opacity: .9;
+    padding: 8px;
+    /* left: 50%; */
+    /* margin-left: -64px; */
+    text-align: center;
 }
 
+@media(max-width: 500px) { 
+    img.logo{
+        width: 400px;
+    }
+}
