@@ -14,19 +14,57 @@ body{
     position: relative;
     height: 800px;
     width: 100%;
-    background: #3ea8fc;
     padding-top: 30px;
+    z-index: -1;
+}
+
+.bg2{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    
 }
 
 #mid2{
     position: relative;
-    height: 810px;
+    height: 780px;
+}
+
+#mid3{
+    position: relative;
+    height: 780px;
+    width: 100%;
+}
+
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    opacity: .8;
+}
+
+#contact{
+    position: relative;
+    height: 750px;
+    width: 100%;
+}
+
+.bg4{
+    position: absolute;
+    top: 0;
+	height: 100%;
+	width: 100%;
+    z-index: -1; 
 }
 
 .background2{
     position: absolute;
     height: 100%;
     width: 100%;   
+    z-index: -1;
 }
 
 .background{
@@ -34,6 +72,14 @@ body{
 	width: 100%;
 	position: absolute;
 	top: 0px;
+    z-index: -1;
+}
+
+.bg3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
     z-index: -1;
 }
 
@@ -70,6 +116,7 @@ img.logo{
     height: 100%;
     width: 100%;
     padding-top: 0px;
+    z-index: 0;
 }
 
 #tagline{
@@ -77,32 +124,103 @@ img.logo{
     font-size: 55px;
     color: #feb91f;
     text-shadow: black -4px 4px 20px;
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* left: 50%; */
-    /* margin-left: -536.5px; */
-    /* margin-bottom: 100px; */
     opacity: .9;
     text-align: center;
+}
+
+.uav{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 200px;
+    height: 150px;
+    z-index: 1;
+    display: inline-block;
 }
 
 #fly{
     padding: 10px;
 }
 
-#about{
+.member{
+    position: absolute;
+    border-radius: 100%;
+}
+
+.label{
     font-family: Lobster;
     font-size: 55px;
     color: #feb91f;
     text-shadow: black -4px 4px 20px;
-    opacity: .9;
-    padding: 8px;
     text-align: center;
     padding: 20px 0px;
 }
 
-@media(max-width: 500px) { 
+.content{
+    font-family: Open Sans;
+    font-size: 35px;
+    color: #feb91f;
+    text-shadow: black -2px 0px 10px;
+    text-align: center;
+    padding: 50px 70px;
+}
+
+.b-uav{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    left: 40%;
+    bottom: 2%;
+    z-index: -1;
+}
+
+#about-content{
+    margin-top: 80px;
+}
+
+#footer{
+    font-family: Open Sans;
+    font-size: 16px;
+    padding: 10px 0px;
+    position: absolute;
+    left: 50%;
+    bottom:  0;
+    margin-left: -177.5px;
+}
+
+@media(max-width: 1200px) { 
+    .b-uav{
+        height: 450px;
+        width:450px;
+        bottom: 10%;
+        left: 20%;
+        opacity: .7;
+    }   
+}
+
+@media(max-width: 575px) { 
     img.logo{
         width: 400px;
+        height: 400px;
+    }        
+    
+    #about-content{
+        font-size: 25px;
+    }
+    
+    .b-uav{
+        height: 300px;
+        width: 300px;
+        bottom: 10%;
+        left: 20%;
+        opacity: .7;
+    }  
+}
+
+@media(max-width: 480px){
+    img.logo{
+        width: 340px;
+        height: 340px;
     }
 }
