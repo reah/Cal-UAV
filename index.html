@@ -19,9 +19,9 @@
         <div id="tagline">Engineering Aerial Robotics Systems of the Future!</div>
         <div id="nav-bar">
             <div class="button" id="Home">Home</div>
-            <div class="button" id="About">About</div>
-            <div class="button" id="About">Team</div>
-            <div class="button" id="About">Contact</div>
+            <div class="button" id="about">About</div>
+            <div class="button" id="team">Team</div>
+            <div class="button" id="contact">Contact</div>
         </div>
     </div>
     
@@ -55,14 +55,42 @@
                 <div class="position" id="cto">Vice President & CTO</div>
             </div>
         </div>
+        <div id="wrap">
+            <div class="join">The Cal UAV Team is welcoming new members from all backgrounds & majors!</div>
+            <div class="join">We do not require prospective members to have any sort of technical background, as we will be holding introductory workshops for all the technologies used to engineer our aerial robotic systems.  </div>
+        </div>
     </div>
     
-    <div class="join">The Cal UAV Team is welcoming new members from all backgrounds and majors!</div>
-    <div class="join">We do not require one to have a technical background in order to become a member, as we will be holding introductory workshops for all the technologies used to engineer our aerial robotic systems.  </div>
-    
-    <div id="contact">
+    <div id="mid5">
         <div class="label" id="cntct">Contact</div>
         <img class="bg4" src="files/imgs/background.jpg">
+
+        <div id="form">
+            <form method="POST" action="/contact.php">
+                <div class="form-row">
+                    <input type="text" name="name" id="name" class="editBox" placeholder="Your Name"/>
+                </div>
+                <div class="form-row">
+                    <input type="text" name="email" id="email" class="editBox" placeholder="Your Email"/>
+                </div>
+                <div class="form-row">
+                    <input type="text" name="major" id="major" class="editBox" placeholder="Your Major"/>
+                </div>
+    <!--             <div class="form-row">
+                    <input type="text" name="class" id="class" class="editBox" placeholder="Class, i.e. freshman, sophmore, junior, senior"/>
+                </div>  -->
+                <div class="form-row">
+                    <input type="text" name="subject" id="subject" class="editBox" placeholder="Subject"/>
+                </div>
+                <div class="form-row">
+                    <textarea name="message" id="message" class="textBox" placeholder="Message"></textarea>
+                </div>
+                <div class="form-row">
+                    <input type="submit" id="submit" class="submitButton">
+                </div>
+            </form> 
+        </div>
+
         <div class="content" id="footer">© UC Berkeley UAV Team 2014 | All Rights Reserved</div>  
     </div>
 
