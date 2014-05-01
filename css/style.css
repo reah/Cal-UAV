@@ -142,9 +142,34 @@ img.logo{
     padding: 10px;
 }
 
-.member{
+.person{
+    float: left;
+    padding: 50px 60px;
+
+}
+
+#members{
     position: absolute;
+    left: 50%;
+    margin-left: -535px;
+}
+
+.position{
+    text-align: center;
+    font-family: Lobster;
+    font-weight: 300;
+    font-size: 30px;
+    color: #feb91f;
+    text-shadow: black -4px 4px 20px;
+}
+
+.member{
     border-radius: 100%;
+    width: 220px;
+    height: 230px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fef6e1;
 }
 
 .label{
